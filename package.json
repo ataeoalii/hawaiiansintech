@@ -26,6 +26,7 @@
     "prettier-plugin-organize-imports": "^2.3.4",
     "react": "16.14",
     "react-dom": "16.13.1",
+    "serverless": "2.72.2",
     "url-regex": "^5.0.0",
     "yup": "^0.32.11"
   },

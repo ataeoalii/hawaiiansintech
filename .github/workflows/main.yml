@@ -22,4 +22,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET }}
           aws-region: us-west-2
       - name: Deploy Next.js app
-        run: npx serverless deploy
+        run: npx serverless
