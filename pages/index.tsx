@@ -4,14 +4,8 @@ import MetaTags from "@/components/Metatags";
 import Nav from "@/components/Nav";
 import { Title } from "@/components/Title.js";
 // Change to "@/lib/stubApi" if no access to airtable vars!
-import {
-  Focus,
-  getFocuses,
-  getIndustries,
-  getMembers,
-  Industry,
-  MemberPublic,
-} from "@/lib/api";
+import { Focus, Industry, MemberPublic } from "@/lib/api";
+import { getFocuses, getIndustries, getMembers } from "@/lib/stubApi";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import theme from "styles/theme";

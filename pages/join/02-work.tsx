@@ -5,8 +5,8 @@ import WorkExperience, {
 } from "@/components/intake-form/WorkExperience";
 import MetaTags from "@/components/Metatags";
 import Nav from "@/components/Nav";
-import { getFocuses } from "@/lib/api";
 import { useStorage } from "@/lib/hooks";
+import { getFocuses } from "@/lib/stubApi";
 import { FORM_LINKS, useInvalid } from "@/lib/utils";
 import Head from "next/head";
 import { useRouter } from "next/router";

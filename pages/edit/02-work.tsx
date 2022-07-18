@@ -5,8 +5,9 @@ import WorkExperience, {
 } from "@/components/intake-form/WorkExperience";
 import MetaTags from "@/components/Metatags";
 import Nav from "@/components/Nav";
-import { getFocuses, MemberPublicEditing } from "@/lib/api";
+import { MemberPublicEditing } from "@/lib/api";
 import { useStorage } from "@/lib/hooks";
+import { getFocuses } from "@/lib/stubApi";
 import { FORM_LINKS } from "@/lib/utils";
 import lodash from "lodash";
 import Head from "next/head";

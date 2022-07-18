@@ -13,8 +13,8 @@ import Selectable, {
 import { Heading } from "@/components/Heading";
 import MetaTags from "@/components/Metatags";
 import Nav from "@/components/Nav";
-import { getIndustries } from "@/lib/api";
 import { useStorage, useWindowWidth } from "@/lib/hooks";
+import { getIndustries } from "@/lib/stubApi";
 import { FORM_LINKS, useInvalid } from "@/lib/utils";
 import Head from "next/head";
 import { useRouter } from "next/router";

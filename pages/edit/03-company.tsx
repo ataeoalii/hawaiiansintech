@@ -5,8 +5,9 @@ import CompanyIndustry, {
 } from "@/components/intake-form/CompanyIndustry";
 import MetaTags from "@/components/Metatags";
 import Nav from "@/components/Nav";
-import { getIndustries, MemberPublicEditing } from "@/lib/api";
+import { MemberPublicEditing } from "@/lib/api";
 import { useStorage } from "@/lib/hooks";
+import { getIndustries } from "@/lib/stubApi";
 import { FORM_LINKS } from "@/lib/utils";
 import lodash from "lodash";
 import Head from "next/head";

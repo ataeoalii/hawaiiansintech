@@ -1,4 +1,4 @@
-import { getFocuses } from "@/lib/api";
+import { getFocuses } from "@/lib/stubApi";
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {

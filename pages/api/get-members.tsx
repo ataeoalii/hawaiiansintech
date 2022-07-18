@@ -1,4 +1,4 @@
-import { getMembers } from "@/lib/api";
+import { getMembers } from "@/lib/stubApi";
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
